@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .header, .education, .experience, .skills {
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            font-size: 36px;
+        }
+        .header p {
+            font-size: 18px;
+        }
+        .section-title {
+            font-size: 24px;
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .skills ul {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .skills ul li {
+            flex: 1 1 30%;
+            margin: 10px;
+            padding: 10px;
+            background-color: #f1f1f1;
+            text-align: center;
+            border-radius: 5px;
+        }
+        .contact-info {
+            font-size: 16px;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1>John Doe</h1>
+        <p class="contact-info">
+            Email: johndoe@example.com | Phone: (123) 456-7890<br>
+            LinkedIn: <a href="#">linkedin.com/in/johndoe</a> | GitHub: <a href="#">github.com/johndoe</a>
+        </p>
+    </div>
+
+    <div class="education">
+        <h2 class="section-title">Education</h2>
+        <ul>
+            <li>
+                <strong>Bachelor of Science in Computer Science</strong> - XYZ University, 2020<br>
+                GPA: 3.8/4.0
+            </li>
+        </ul>
+    </div>
+
+    <div class="experience">
+        <h2 class="section-title">Work Experience</h2>
+        <ul>
+            <li>
+                <strong>Software Developer</strong> - ABC Tech, 2021-Present<br>
+                Developed web applications using JavaScript, HTML, and CSS. Collaborated with a team of developers on various projects.
+            </li>
+            <li>
+                <strong>Intern</strong> - DEF Solutions, Summer 2020<br>
+                Assisted with debugging and maintaining code for internal tools.
+            </li>
+        </ul>
+    </div>
+
+    <div class="skills">
+        <h2 class="section-title">Skills</h2>
+        <ul>
+            <li>HTML/CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Version Control (Git)</li>
+            <li>Responsive Web Design</li>
+            <li>Database Management (SQL)</li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>
